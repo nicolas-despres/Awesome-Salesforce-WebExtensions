@@ -1,23 +1,28 @@
-# Awesome WebExtensions [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Salesforce WebExtensions [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome resources for WebExtensions development.
+> A curated list of awesome resources for WebExtensions development within Salesforce.
 
 WebExtensions are a cross-browser system for developing browser add-ons. To a large extent the system is compatible with the extension API supported by Google Chrome. Extensions written for this browser will in most cases run in Firefox with just [a few changes](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Porting_a_Google_Chrome_extension).
 
-Follow [@fregante](https://fregante.com) for more webext-related news.
 
 ## Contents
-
+- [Sample Salesforce Extensions](#salesforce-extensions-on-github)
 - [Getting started](#getting-started)
 - [Community](#community)
 - [Libraries and Frameworks](#libraries-and-frameworks)
 - [Tools](#tools)
 - [Testing](#testing)
 - [Boilerplates](#boilerplates)
-- [Sample Extensions](#sample-extensions)
+- [Other Sample Extensions](#sample-extensions)
+
+## Salesforce Extensions on github
+- [Inspector Reloaded](https://github.com/tprouvot/Salesforce-Inspector-reloaded)
+- [Dev Tools](https://github.com/xgeek-net/salesforce-devtools)
+- [Advanced Formula](https://github.com/kpeterson85/Salesforce-Enhanced-Formula-Editor-Chrome-Extension)
+- [Boostr](https://github.com/mattsimonis/boostr)
 
 ## Getting started
-
+- [Salesforce Rest API](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm)
 - [Chrome Extensions documentation](https://developer.chrome.com/docs/extensions/reference) - Documentation for the original Chrome extension model.
 - [Mozilla's WebExtensions documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) - MDN wiki for the WebExtensions API.
 - [Browser support for WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs) - Compatibility table for Chrome, Edge, Firefox, and Opera.
@@ -52,7 +57,7 @@ Code meant become part of the extension.
 ## Tools
 
 Apps that help you manage your extensions.
-
+- [JS Force](https://github.com/jsforce/jsforce) - Makes your integration with salesforce easy
 - [Chrome Webstore Upload](https://github.com/fregante/chrome-webstore-upload-cli) - Upload the extension to the Chrome Web Store via cli (or on Travis, automatically).
 - [mozilla/web-ext](https://github.com/mozilla/web-ext) - Command line tool to help build, run, and test WebExtensions.
 - [chromepet](https://github.com/ZenHubIO/chromepet) - Get notified when your new version has been published.
