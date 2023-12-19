@@ -1,4 +1,4 @@
-# Awesome Salesforce WebExtensions [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
++# Awesome Salesforce WebExtensions [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of awesome resources for WebExtensions development within Salesforce.
 
@@ -6,20 +6,34 @@ WebExtensions are a cross-browser system for developing browser add-ons. To a la
 
 
 ## Contents
-- [Sample Salesforce Extensions](#salesforce-extensions-on-github)
+- [Sample Extensions](#sample-extensions)
 - [Getting started](#getting-started)
 - [Community](#community)
 - [Libraries and Frameworks](#libraries-and-frameworks)
 - [Tools](#tools)
 - [Testing](#testing)
 - [Boilerplates](#boilerplates)
-- [Other Sample Extensions](#sample-extensions)
 
-## Salesforce Extensions on github
-- [Inspector Reloaded](https://github.com/tprouvot/Salesforce-Inspector-reloaded)
+## Sample Extensions
+
+## Non-Salesforce Extensions
+
+- [Chrome Official Samples](https://github.com/GoogleChrome/chrome-extensions-samples)
+- [Hide Files on GitHub](https://github.com/sindresorhus/hide-files-on-github) <- nice and clean stack
+- [npmhub](https://github.com/npmhub/npmhub)
+- [mdn/webextension-examples](https://github.com/mdn/webextensions-examples) - Various example extensions curated for the MDN documentation.
+
+
+### Salesforce Extensions
+- [Inspector](https://github.com/sorenkrabbe/Chrome-Salesforce-inspector) - the original
+- [Inspector Reloaded](https://github.com/tprouvot/Salesforce-Inspector-reloaded) - the new version
 - [Dev Tools](https://github.com/xgeek-net/salesforce-devtools)
 - [Advanced Formula](https://github.com/kpeterson85/Salesforce-Enhanced-Formula-Editor-Chrome-Extension)
 - [Boostr](https://github.com/mattsimonis/boostr)
+- [Show API Name](https://github.com/ChenZaichuang/salesforce_show_api_name)
+- [Salesforce Explorer](https://sf-explorer.github.io/documentation/)
+
+#
 
 ## Getting started
 - [Salesforce Rest API](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm)
@@ -31,19 +45,10 @@ WebExtensions are a cross-browser system for developing browser add-ons. To a la
 - [Porting Chrome Extensions to Firefox](https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension) - Guide to prepare, install, and debug Chrome extensions to be ported in Firefox.
 - [Browser Extension Standard](https://browserext.github.io/browserext/) - Standard for the API, supported by Mozilla, Opera and Microsoft.
 
-## Community
-
-- [Google Groups](https://groups.google.com/a/chromium.org/forum/#!forum/chromium-extensions) - Discussions.
-- [Mozilla Discourse](https://discourse.mozilla.org/c/add-ons) - Discussions.
-- [`#addons:mozilla.org`](https://matrix.to/#/#addons:mozilla.org) - Matrix channel by Mozilla.
-- [`google-chrome-extension` tag on Stack Overflow](https://stackoverflow.com/questions/tagged/google-chrome-extension) - Relevant questions.
-- [`firefox-addon-webextensions` tag on Stack Overflow](https://stackoverflow.com/questions/tagged/firefox-addon-webextensions) - Relevant questions.
-- [`microsoft-edge-extension` tag on Stack Overflow](https://stackoverflow.com/questions/tagged/microsoft-edge-extension) - Relevant questions.
-
 ## Libraries and Frameworks
 
 Code meant become part of the extension.
-
+- [JS Force](https://github.com/jsforce/jsforce) - Makes your integration with salesforce easy
 - [webext-options-sync](https://github.com/fregante/webext-options-sync) - Helps you manage and autosave your extension's options.
 - [webext-storage-cache](https://github.com/fregante/webext-storage-cache) - Map-like promised cache storage with expiration.
 - [webext-dynamic-content-scripts](https://github.com/fregante/webext-dynamic-content-scripts) - Automatically inject your `content_scripts` on custom domains.
@@ -54,10 +59,20 @@ Code meant become part of the extension.
 - [inject-react-anywhere](https://github.com/OlegWock/inject-react-anywhere) - Inject React components into 3rd party sites with convenient API and styles isolation.
 - [More…](https://github.com/fregante/webext-fun)
 
+
+## Community
+
+- [Google Groups](https://groups.google.com/a/chromium.org/forum/#!forum/chromium-extensions) - Discussions.
+- [Mozilla Discourse](https://discourse.mozilla.org/c/add-ons) - Discussions.
+- [`#addons:mozilla.org`](https://matrix.to/#/#addons:mozilla.org) - Matrix channel by Mozilla.
+- [`google-chrome-extension` tag on Stack Overflow](https://stackoverflow.com/questions/tagged/google-chrome-extension) - Relevant questions.
+- [`firefox-addon-webextensions` tag on Stack Overflow](https://stackoverflow.com/questions/tagged/firefox-addon-webextensions) - Relevant questions.
+- [`microsoft-edge-extension` tag on Stack Overflow](https://stackoverflow.com/questions/tagged/microsoft-edge-extension) - Relevant questions.
+
+
 ## Tools
 
 Apps that help you manage your extensions.
-- [JS Force](https://github.com/jsforce/jsforce) - Makes your integration with salesforce easy
 - [Chrome Webstore Upload](https://github.com/fregante/chrome-webstore-upload-cli) - Upload the extension to the Chrome Web Store via cli (or on Travis, automatically).
 - [mozilla/web-ext](https://github.com/mozilla/web-ext) - Command line tool to help build, run, and test WebExtensions.
 - [chromepet](https://github.com/ZenHubIO/chromepet) - Get notified when your new version has been published.
@@ -86,10 +101,3 @@ Apps that help you manage your extensions.
 - [generator-web-extension](https://github.com/webextension-toolbox/generator-web-extension) - WebExtension generator that creates everything you need to get started with cross-browser web-extension development.
 - [vue-web-extension](https://github.com/Kocal/vue-web-extension) - A Vue CLI 3+ preset for quickly starting a web extension with Vue, Babel, ESLint and more!
 
-## Sample Extensions
-
-These are simple and modern WebExtensions repositories that could help you figure out where pieces go, including automatic deployment via Travis CI.
-
-- [npmhub](https://github.com/npmhub/npmhub)
-- [Hide Files on GitHub](https://github.com/sindresorhus/hide-files-on-github)
-- [mdn/webextension-examples](https://github.com/mdn/webextensions-examples) - Various example extensions curated for the MDN documentation.
